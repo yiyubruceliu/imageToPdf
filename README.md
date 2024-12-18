@@ -18,3 +18,17 @@ Download the latest release executable (.exe) file from the dist folder and run 
 
 ### For Developers
 1. Clone the repository:
+2. install the requirements:
+```
+pip install -r requirements.txt
+```
+3. run the app:
+```
+python main.py
+```
+Or run the executable file in the dist folder.
+
+To build the executable file, run the following command:
+```
+pyinstaller --onefile --windowed --icon=icon.ico --name=imageToPdf main.py
+```
